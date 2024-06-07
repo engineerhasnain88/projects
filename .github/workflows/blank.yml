@@ -25,6 +25,6 @@ jobs:
         body: |
           A new pull request has been created from the develop branch to the UAT branch.
           Please review the pull request at ${{ github.event.pull_request.html_url }}
-        to: engineerhasnain88@gmail.com
+        to: engineerhasnain89@gmail.com
         from: ${{ secrets.SMTP_USERNAME }}
         debug: true
