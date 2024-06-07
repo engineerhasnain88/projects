@@ -19,11 +19,11 @@ jobs:
       with:
         server_address: smtp.gmail.com
         server_port: 587
-        username: ${{ secrets.engineerhasnain88@gmail.com }}
-        password: ${{ secrets.97575400 }}
+        username: ${{ secrets.SMTP_USERNAME }}
+        password: ${{ secrets.SMTP_PASSWORD }}
         subject: 'Pull Request from Develop to UAT'
         body: |
           A new pull request has been created from the develop branch to the UAT branch.
           Please review the pull request at ${{ github.event.pull_request.html_url }}
-        to: hasnain.wali@csd.gov.pk
-        from: engineerhasnain88@gmail.com
+        to: your-email@yourdomain.com
+        from: ${{ secrets.SMTP_USERNAME }}
