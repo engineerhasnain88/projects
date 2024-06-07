@@ -3,7 +3,7 @@ name: Pull Request Notification
 on:
   pull_request:
     branches:
-      - UAT
+      - main
     types: [opened, synchronize]
 
 jobs:
