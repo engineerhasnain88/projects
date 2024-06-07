@@ -4,7 +4,7 @@ name: Pull Request Notification from Develop to UAT
 on:
   pull_request:
     branches:
-      - uat
+      - UAT
     types: [opened, synchronize]
 
 jobs:
