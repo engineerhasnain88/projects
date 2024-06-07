@@ -25,5 +25,5 @@ jobs:
         body: |
           A new pull request has been created from the develop branch to the UAT branch.
           Please review the pull request at ${{ github.event.pull_request.html_url }}
-        to: your-email@yourdomain.com
+        to: hasnain.wali@csd.gov.pk
         from: ${{ secrets.SMTP_USERNAME }}
